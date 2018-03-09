@@ -1,10 +1,13 @@
 .ViewSwitcher {
     display: grid;
     margin: auto;
+    perspective: 1000px;
     width: 60vw;
 }
 
 .ViewSwitcher-View {
+    background: #000;
+    backface-visibility: hidden;
     grid-row: 1/2;
     grid-column: 1/2;
     height: 100%;
