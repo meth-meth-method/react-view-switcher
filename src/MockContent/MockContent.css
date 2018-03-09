@@ -1,0 +1,16 @@
+.MockContent-Image img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.MockContent-Horse {
+    background: #222;
+    color: #ddd;
+    font-family: "Georgia", serif;
+    font-size: 32px;
+}
+
+.MockContent-Horse a {
+    color: #fff;
+}
