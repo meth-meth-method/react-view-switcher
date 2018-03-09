@@ -7,3 +7,11 @@ export class ViewSwitcher extends Component {
     </div>;
   }
 }
+
+class View extends Component {
+  render() {
+    return <div className="ViewSwitcher-View">
+      {this.props.children}
+    </div>;
+  }
+}
