@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './ViewSwitcher.css';
+
 export class ViewSwitcher extends Component {
   render() {
     return <div className="ViewSwitcher">
