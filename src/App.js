@@ -13,7 +13,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <ViewSwitcher>
+        <ViewSwitcher active={2}>
           <Image url="https://i.imgur.com/QlsmNE1.jpg"/>
           <AboutHorse/>
           <Image url="https://i.imgur.com/wYTCtRu.jpg"/>
